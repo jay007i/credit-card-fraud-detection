@@ -1,0 +1,21 @@
+# Datasets
+data/raw/*
+data/processed/*
+
+# Models
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment
+venv/
+.env
