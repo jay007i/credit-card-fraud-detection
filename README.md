@@ -29,6 +29,12 @@ This project focuses on detecting fraudulent credit card transactions using Mach
 ## Problem Statement
 Credit card fraud causes significant financial losses. This project uses machine learning techniques to identify fraudulent transactions.
 
+## Dataset Information
+- Transactions: 284,807
+- Fraud Cases: 492
+- Features: 31
+- Target: Class
+
 ## Project Structure
 
 ```text
