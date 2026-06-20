@@ -25,6 +25,9 @@ This project focuses on detecting fraudulent credit card transactions using Mach
 - Seaborn
 - Scikit-Learn
 - Jupyter Notebook
+  
+## Problem Statement
+Credit card fraud causes significant financial losses. This project uses machine learning techniques to identify fraudulent transactions.
 
 ## Project Structure
 
@@ -43,3 +46,6 @@ credit_card_fraud_project/
 ├── README.md
 ├── requirements.txt
 └── .gitignore# credit-card-fraud-detection
+
+
+
