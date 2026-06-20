@@ -7,4 +7,8 @@ imbalanced-learn
 xgboost
 jupyter
 notebook
+<<<<<<< HEAD
 ipykernel
+=======
+ipykernel
+>>>>>>> dd058579983db1459ca26f7ebb58c04eaff4853d
