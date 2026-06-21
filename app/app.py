@@ -4,15 +4,18 @@ import numpy as np
 import joblib
 import os
 
-model_path = os.path.join('models','xgboost_fraud_model.pkl')
-model = joblib.load('../models/xgboost_fraud_model.pkl')
+# --- 1. SETUP & LOAD MODEL ---
+# Point to the frozen AI briefcase we saved earlier
+model_path = os.path.join('models', 'xgboost_fraud_model.pkl')
+model = joblib.load(model_path)
 
-st.title(" Credit Card Fraud Detection AI")
+# --- 2. BUILD THE UI ---
+st.title("🛡️ Credit Card Fraud Detection AI")
 st.markdown("This AI uses a **Custom 15% Sensitivity Threshold** to prioritize catching thieves over default accuracy.")
 
 st.header("Simulate a Transaction")
 
-col1 , col2 = st.columns(2)
+col1, col2 = st.columns(2)
 with col1:
     transaction_amount = st.number_input("Transaction Amount ($)", min_value=0.0, max_value=100000.0, value=250.00)
 with col2:
@@ -53,4 +56,3 @@ if st.button("Run AI Fraud Check"):
         st.error("🚨 HIGH ALERT: Transaction Frozen! (Exceeded 15% Risk Threshold)")
     else:
         st.success("✅ Transaction Approved. Customer is safe.")
-    transca
