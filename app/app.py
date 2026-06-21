@@ -5,7 +5,7 @@ import joblib
 import os
 
 model_path = os.path.join('models','xgboost_fraud_model.pkl')
-model = joblib.load(model_path)
+model = joblib.load('../models/xgboost_fraud_model.pkl')
 
 st.title(" Credit Card Fraud Detection AI")
 st.markdown("This AI uses a **Custom 15% Sensitivity Threshold** to prioritize catching thieves over default accuracy.")
