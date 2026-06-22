@@ -49,3 +49,11 @@ credit_card_fraud_project/
 │
 ├── requirements.txt         # Dependency list
 └── README.md                # Project documentation
+
+## Model Pipeline
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training
+5. Fraud Prediction
+6. Performance Evaluation
